@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner tec = new Scanner(System.in);
 
         // Usuario informa um numero
         System.out.print("Informe um número: ");
-        int numero = scanner.nextInt();
-        
+        int numero = tec.nextInt();
+        tec.close();
 
         // Variáveis iniciais da sequência de Fibonacci
         int Num1 = 0, Num2 = 1;
